@@ -1,0 +1,55 @@
+What is Proxy curl?
+
+Proxy curl is a LinkedIn profile scraping API that stores it's data in a postgresql data structure called LinkDB
+
+LinkDB is a postgresql database of 117M public Linkedin Profiles.
+
+Proxy curl can do the following for you;
+
+Lookup people
+Look up companies
+Enrich people profiles
+Enrich company profiles
+Lookup contact information on people and companies
+Check if an email address is of a disposable nature
+Scrape 1M Linkedin jobs/ day in real time
+Here are lists of solutions proxy curls offers;
+
+Sales marketing automation Helping you identifying decision makers, buy signals and launch Facebook ads for B2B products.
+Build data-driven applications with proxy curl api.
+Investment signals with fresh alternative data like hiring velocity, identifying and tracking prospective founders.
+Accelerate hyper-growth at your growth-stage start up with building an exhaustive list of prospects and pushing out growth campaigns with Facebook ads, bulk connection on linkedin and cold email campaigns.
+Email Lookup API get verified work email addresses of linkedin profiles programmatically.
+Reverse email lookup API lookup a linkedin profile from a work email address.
+Employee Listing Endpoint get a list of past and present employees of any company.
+Free API to check if an email belongs to a disposable email service.
+Reveal API reveal the associated company from an IP address.
+Simple ways to use proxy curl;
+
+Person Profile Endpoint
+Input: Person profile URL
+Output: Profile data with profile picture, job history etc
+
+Company Profile Endpoint
+Input: Company Profile URL
+Output: Company's profile picture, office locations etc
+
+Work Email Lookup Endpoint
+Input: Work email address
+Output: Profile URL
+
+Personal Email Lookup Endpoint
+Input: Linkedin Profile URL
+Output: List of personal email address
+
+Employee Listing Endpoint
+Input: Company Profile URL
+Output: List of employees
+
+Role Lookup Endpoint
+Input: Company name and role
+Output: Person Profile URL
+
+Nubela (Proxy curl) abides by strict legal compliance kin obtaining data designed with a high bar security and privacy in mind which is CCPA and GDPR compliant.
+
+Email proxy curl product manager, data science team, and head of growth: hello@nebula.co
