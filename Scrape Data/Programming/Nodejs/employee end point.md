@@ -1,18 +1,33 @@
 ![6](https://user-images.githubusercontent.com/83256563/198080819-03c25bb8-67ce-4b6a-8831-94025ed630d1.png)
 
-Next let's try scraping data from linkedin using Proxycurl and Nodejs
+**Next let's try scraping data from linkedin using Proxycurl and Nodejs**
 
-Create a folder directory
+- Create a folder directory 
+
+```
 cd c:\\User\user\Folder name
-Build file package
+```
+ 
+
+- Build file package
+
+```
 npm install express axios dotenv
 
 or with Yarn
 
 yarn add express axios dotenv
-Generate API key from proxycurl
+```
+
+- Generate API key from [proxycurl](https://nubela.co/)
+
+```
 API_KEY = 'YOUR_API_KEY_HERE'
-Code snippet
+```
+
+- Code snippet
+
+```
 import express from 'express';
 import axios from 'axios';
 import dotenv from 'dotenv';
@@ -24,6 +39,9 @@ dotenv.config();
 app.listen(8000, () => {
     console.log('App connected successfully!');
 });
+```
+
+```
 // Getting Company's job listing
 
 const TWITTER_URL = 'https://www.linkedin.com/company/twitter/';  // Line 1
@@ -72,6 +90,9 @@ const jobListings = await getTwitterListings();
 const jobs = jobListings.data.job;
 
 console.log(jobs);
+```
+
+```
 // Specific Job listing code snippet
 
 const jobProfileConfig = {
@@ -91,7 +112,11 @@ const jobDetails = await getJobDetails();
 
 console.log(jobDetails.data);
 
-How the package.json should look like;
+```
+
+**How the package.json should look like;**
+
+```
 {
   "name": "nubela",
   "version": "1.0.0",
@@ -110,10 +135,12 @@ How the package.json should look like;
     "express": "^4.18.2"
   }
 }
+```
 You can try scraping any data of your choice from Linkedin using Proxycurl Api
 
-References
-Proxycurl API
-Proxycurl Documentation
-Node js
-Proxycurl Writer
+**References**
+[Proxycurl API](https://nubela.co/)
+[Proxycurl Documentation](https://nubela.co/proxycurl/docs#overview)
+[Node js](https://nodejs.org/)
+[Proxycurl Writer](https://dev.to/heymich/scraping-linkedin-data-with-proxycurl-jobs-api-2jgb)
+ 
